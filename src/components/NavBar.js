@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import Logo from './Logo';
+import Logo from '../components/Logo';
 
 const NavBar = () => {
     return (
