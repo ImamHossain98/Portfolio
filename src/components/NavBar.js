@@ -3,6 +3,7 @@ import React from 'react';
 import Logo from '../components/Logo';
 import { useRouter } from 'next/router';
 import { TwitterIcon, GithubIcon, LinkedInIcon, PinterestIcon, DribbbleIcon, SunIcon } from './Icons';
+import { motion } from 'framer-motion';
 
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -30,12 +31,30 @@ const NavBar = () => {
             </nav>
 
             <nav className='flex items-center justify-center flex-wrap'>
-                <Link href="/" target={"_blank"}><TwitterIcon /></Link>
-                <Link href="/" target={"_blank"}><GithubIcon /></Link>
-                <Link href="/" target={"_blank"}><LinkedInIcon /></Link>
-                <Link href="/" target={"_blank"}><PinterestIcon /></Link>
-                <Link href="/" target={"_blank"}><DribbbleIcon /></Link>
-                <Link href="/" target={"_blank"}><SunIcon /></Link>
+                <motion.a href="https://twitter.com/?lang=en" target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.9 }}
+                    className='w-6 mr-3'><TwitterIcon /></motion.a>
+                <motion.a href="https://github.com/ImamHossain98?tab=repositories" target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.9 }}
+                    className='w-6 mr-3'><GithubIcon /></motion.a>
+                <motion.a href="https://www.linkedin.com/in/imam-hossain-8b0487216/" target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.9 }}
+                    className='w-6 mr-3'><LinkedInIcon /></motion.a>
+                <motion.a href="https://www.pinterest.com/" target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.9 }}
+                    className='w-6 mr-3'><PinterestIcon /></motion.a>
+                <motion.a href="https://dribbble.com/tags/icons" target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.9 }}
+                    className='w-6 mr-3'><DribbbleIcon /></motion.a>
+                <motion.a href="https://www.sunicon.in/" target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.9 }}
+                    className='w-6 mr-3'><SunIcon /></motion.a>
             </nav>
 
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
