@@ -17,8 +17,8 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen' >
         <Layout>
           <div className='flex items-center justify-between w-full'>
-            <div className='w-1/2'>
-              <Image src={profilePic} alt="COdeBuks" className='w-4/5 h-3/5 pl-44 pb-0 rounded-lg' />
+            <div className='w-1/2 '>
+              <Image src={profilePic} alt="COdeBuks" className='w-full h-full rounded-lg ' />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
               <h1></h1>
