@@ -1,11 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const skill = ({ name, x, y }) => {
+const Skill = ({ name, x, y }) => {
   return (
     <motion.div
-      className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer"
+      className="flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer absolute"
       whileHover={{ scale: 1.05 }}
+      initial={{ x: 0, y: 0 }}
+      whileInView={{ x: x, y: y }}
+      transition={{ duration: 1.5 }}
+      viewport={{ once: true }}
     >
       {name}
     </motion.div>
@@ -24,16 +28,16 @@ const Skills = () => {
           Web
         </motion.div>
 
-        <skill name="css" x="-5vw" y="-10vw" />
-        {/* <skill name="HTML" x="-22vw" y="-2vw" />
-        {/* <skill name="CSS" x="20vw" y="6vw" />
-        <skill name="Javascript" x="-5vw" y="-10vw" />
-        <skill name="ReactJS" x="0vw" y="12vw" />
-        <skill name="NextJS" x="-20vw" y="-15vw" />
-        <skill name="Framer Motion" x="15vw" y="-12vw" />
-        <skill name="Web Design" x="32vw" y="-5vw" />
-        <skill name="Firebase" x="-25vw" y="-18vw" />
-        <skill name="Tailwind CSS" x="18vw" y="18vw" /> */}
+        <Skill name="css" x="-5vw" y="-10vw" />
+        <Skill name="HTML" x="-25vw" y="-2vw" />
+        <Skill name="CSS" x="35vw" y="6vw" />
+        <Skill name="Javascript" x="20vw" y="6vw" />
+        <Skill name="ReactJS" x="0vw" y="18vw" />
+        <Skill name="NextJS" x="-20vw" y="-15vw" />
+        <Skill name="Framer Motion" x="15vw" y="-12vw" />
+        <Skill name="Web Design" x="32vw" y="-5vw" />
+        <Skill name="Firebase" x="-25vw" y="18vw" />
+        <Skill name="Tailwind CSS" x="-18vw" y="10vw" />
       </div>
     </>
   );

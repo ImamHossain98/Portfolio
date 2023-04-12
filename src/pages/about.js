@@ -3,7 +3,7 @@ import Head from "next/head";
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
+import profilePic from "../../public/images/profile/developer-pic-2.png";
 import { useMotionValue, useSpring, useInView } from "framer-motion";
 import Skills from "@/components/Skills";
 import Exprience from "@/components/Exprience";
@@ -110,7 +110,7 @@ const About = () => {
           </div>
 
           <Skills />
-          <Exprience/>
+          <Exprience />
         </Layout>
       </main>
     </>
