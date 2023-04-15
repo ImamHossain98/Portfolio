@@ -18,7 +18,7 @@ const Details = ({ type, time, place, info }) => {
       >
         <h3 className="capitalize font-bold text-2xl">{type}&nbsp;</h3>
 
-        <span className="capitalizze font-medium text-dark/75">
+        <span className="capitalizze font-medium text-dark/75 dark:text-light/75">
           {time} | {place}
         </span>
         <p className="font-medium w-full">{info}</p>
@@ -37,10 +37,11 @@ const Education = () => {
   return (
     <div className="my-64">
       <h2 className="font-bold text-8xl mb-32 w-full text-center">Education</h2>
-      <div ref={ref} className="w-[75] mx-auto relative">
+      
+      <div ref={ref} className="w-[75] mx-auto relative ">
         <motion.div
           style={{ scale: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top"
+          className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top"
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4">
