@@ -23,7 +23,9 @@ const Details = ({ type, time, place, info }) => {
         <span className="capitalizze font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {place}
         </span>
-        <p className="font-medium w-full md:text-sm">{info}</p>
+        <p className="font-medium w-full md:text-sm sm:text-xs text-justify ">
+          {info}
+        </p>
       </motion.div>
     </li>
   );
@@ -45,7 +47,7 @@ const Education = () => {
       <div ref={ref} className="w-[75] mx-auto relative lg:w-[90%] md:w-full">
         <motion.div
           style={{ scale: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:w-[2px] md:kleft-[30px] xs:left-[20px]"
+          className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">

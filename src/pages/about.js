@@ -8,6 +8,7 @@ import { useMotionValue, useSpring, useInView } from "framer-motion";
 import Skills from "@/components/Skills";
 import Exprience from "@/components/Exprience";
 import Education from "@/components/Education";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -37,9 +38,10 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | About Page</title>
+        <title> Imam Hossain | About Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
 
       <main className="flex w-full flex-col items-center justify-center dark:text-light md:mt-3">
         <Layout className="pt-16">
@@ -48,7 +50,10 @@ const About = () => {
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
-            <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
+            <div
+              className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 text-justify md:text-sm sm:text-xs
+            "
+            >
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 ">
                 Biography
               </h2>
