@@ -7,6 +7,9 @@ import Link from "next/link";
 import React from "react";
 import projectt1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import project2 from "../../public/images/projects/gym-website.png";
+import project3 from "../../public/images/projects/project3.png";
+import project4 from "../../public/images/projects/project4.png";
+
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -131,22 +134,21 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 sm:col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={projectt1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
-                github="/"
+                title="CarHub Website"
+                img={project3}
+                summary="CarHub a rent a car service website using , Nextjs, Tailwind CSS, Rapid API and headless UI. 
+              It shows detail regarding almost all the different car. You can easily filter cars by your own choice."
+                link="https://car-hub-practice.vercel.app/"
+                github="https://github.com/ImamHossain98/carHub-practice"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={projectt1}
-                link="/"
-                github="/"
+                title="Promptopia"
+                img={project4}
+                link="https://promptopia-psi-fawn.vercel.app/"
+                github="https://github.com/ImamHossain98/Promptopia"
                 type="Featured Project"
               />
             </div>
@@ -156,18 +158,17 @@ const projects = () => {
                 img={project2}
                 link="https://powerflex-ecbe9.web.app/home#home"
                 github="https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-ImamHossain98"
+                summary="A gym website by using html, css, bootstap, google authentication. you can easily view details of the gym's monthly packages."
                 type="Featured Project"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={projectt1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
-                github="/"
+                title="Promptopia"
+                img={project4}
+                summary="A website featuring CRUD operations using React, Next.js, NextAuth, Tailwind CSS, MongoDB, and custom CSS. It displays details regarding almost all the prompts created by email. It includes optimizations for GET, POST, UPDATE, and DELETE operations."
+                link="https://promptopia-psi-fawn.vercel.app/"
+                github="https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-ImamHossain98"
                 type="Featured Project"
               />
             </div>
