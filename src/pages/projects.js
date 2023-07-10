@@ -175,7 +175,7 @@ const projects = () => {
           </div>
         </Layout>
       </main>
-      <h1 className="text-black  dark:text-white font-bold text-2xl  justify-center text-center mx-10 mb-10">
+      <h1 className="text-black  dark:text-white font-bold text-2xl  justify-center text-center mx-10 mb-10 sm:text-sm md:text-md xs:text-xs">
         More Projects will coming soon.....!
       </h1>
     </>

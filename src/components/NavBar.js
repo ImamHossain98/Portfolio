@@ -212,7 +212,7 @@ const NavBar = () => {
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://twitter.com/?lang=en"
+              href="https://www.facebook.com/imam.hossain.7/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -239,7 +239,7 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://www.pinterest.com/"
+              href="mailto:office.imam647@gmail.com"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -248,7 +248,7 @@ const NavBar = () => {
               <MailIcon />
             </motion.a>
             <motion.a
-              href="https://dribbble.com/tags/icons"
+              href="https://wa.me/+8801854146107"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}

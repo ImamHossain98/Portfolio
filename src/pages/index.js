@@ -44,7 +44,7 @@ export default function Home() {
                 className="!text-3xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl md:mt-8"
               />
 
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs break-words text-justify ">
+              <p className="my-4 font-medium md:text-sm sm:text-xs text-justify break-words">
                 As a skilled full-stack developer, I am dedicated to turning
                 ideas into innovative web applications. Explore my latest
                 projects and articles, showcasing my expertise in React.js,
@@ -52,7 +52,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/dummy.pdf"
+                  href="/ImamCV.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark
                   

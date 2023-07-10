@@ -51,7 +51,7 @@ const About = () => {
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div
-              className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 text-justify md:text-sm sm:text-xs
+              className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 text-justify md:text-sm sm:text-xs break-words
             "
             >
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 ">
