@@ -52,10 +52,25 @@ const Education = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            type="A.K High School"
+            time="2013"
+            place="SSC | Dhaka, Bangladesh"
+            info="School education helped me as an individual to consider the distinctions and similarities with other cultures. School helped me choose the right career path. Schools not only taught lessons from books but also provided valuable life lessons. Schools offered opportunities to make friends. Schools improved my personality and enhanced my personal speech."
+          />
+          <Details
+            type="Dania University College"
+            time="2015"
+            place="HSC | Dhaka, Bangladesh"
+            info="
+            College offered a multitude of advantages for me. It provided a structured and focused education, equipping students with specialized knowledge and practical skills in our chosen fields. College fostered personal growth, critical thinking, and independence, preparing students for the complexities of the professional world. Additionally, it also offered networking opportunities, access to expert faculty, and a supportive environment for learning. Ultimately, college served as a valuable stepping stone towards a successful and fulfilling career.
+            "
+          />
+          <Details
             type="MERN Full Stack Developer Course"
             time="2021"
             place="Programming Hero [Batch-4]"
-            info="MERN stack is a full stack JavaScript framework that allows users to build code to handle the front end, back end, and database infrastructure of web applications. It is a complex set of frameworks, but learning the MERN stack will allow programmers to build and maintain complex, interactive web applications."
+            info="MERN stack is a full stack JavaScript framework that allows users to build code to handle the front end, back end, and database infrastructure of web applications. It is a complex set of frameworks, but learning the MERN stack will allow programmers to build and maintain complex, interactive web applications.
+            "
           />
           <Details
             type="CSE Fundamenntals with Phitron"
@@ -68,8 +83,9 @@ const Education = () => {
             type="Bachelor Of Business Administration (BBA)"
             time="2016-2021"
             place="Kabi Nazrul Govt. College (DU affiliated)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            info="
+            Completing a Bachelor of Business Administration (BBA) equipped me with a diverse set of skills and knowledge essential for a successful career in the business world. Through comprehensive coursework, I gained a solid foundation in various business disciplines, including management, marketing, finance, and operations. Additionally, I developed leadership and management abilities, analytical and critical thinking skills, financial literacy, marketing expertise, and an entrepreneurial mindset. With an emphasis on ethical decision-making and effective communication, a BBA program prepared me for a range of career opportunities and provided a strong basis for further education or entrepreneurial endeavors.
+            "
           />
         </ul>
       </div>

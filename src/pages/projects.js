@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import projectt1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import projectt1 from "../../public/images/projects/project1.png";
 import project2 from "../../public/images/projects/gym-website.png";
 import project3 from "../../public/images/projects/project3.png";
 import project4 from "../../public/images/projects/project4.png";
@@ -145,10 +145,10 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Promptopia"
-                img={project4}
+                title="Personal portfolio"
+                img={projectt1}
                 link="https://promptopia-psi-fawn.vercel.app/"
-                github="https://github.com/ImamHossain98/Promptopia"
+                github="https://github.com/ImamHossain98/Portfolio"
                 type="Featured Project"
               />
             </div>
@@ -172,27 +172,12 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Crypto Screener Application"
-                img={projectt1}
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Crypto Screener Application"
-                img={projectt1}
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div>
           </div>
         </Layout>
       </main>
+      <h1 className="text-black  dark:text-white font-bold text-2xl  justify-center text-center mx-10 mb-10">
+        More Projects will coming soon.....!
+      </h1>
     </>
   );
 };

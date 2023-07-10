@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import Logo from "../components/Logo";
 import { useRouter } from "next/router";
 import {
-  TwitterIcon,
+  FacebookIcon,
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
-  DribbbleIcon,
+  MailIcon,
+  WhatsAppIcon,
   SunIcon,
   MoonIcon,
 } from "./Icons";
@@ -107,13 +107,13 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://twitter.com/?lang=en"
+            href="https://www.facebook.com/imam.hossain.7/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-3"
           >
-            <TwitterIcon />
+            <FacebookIcon />
           </motion.a>
           <motion.a
             href="https://github.com/ImamHossain98?tab=repositories"
@@ -134,22 +134,22 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://www.pinterest.com/"
+            href="mailto:office.imam647@gmail.com"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-3"
           >
-            <PinterestIcon />
+            <MailIcon />
           </motion.a>
           <motion.a
-            href="https://dribbble.com/tags/icons"
+            href="https://wa.me/+8801854146107"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-3"
           >
-            <DribbbleIcon />
+            <WhatsAppIcon />
           </motion.a>
 
           {/* <motion.a
@@ -218,7 +218,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-6 mr-3 sm:mx-1"
             >
-              <TwitterIcon />
+              <FacebookIcon />
             </motion.a>
             <motion.a
               href="https://github.com/ImamHossain98?tab=repositories"
@@ -245,7 +245,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-6 mr-3 sm:mx-1"
             >
-              <PinterestIcon />
+              <MailIcon />
             </motion.a>
             <motion.a
               href="https://dribbble.com/tags/icons"
@@ -254,7 +254,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-6 mr-3 sm:mx-1"
             >
-              <DribbbleIcon />
+              <WhatsAppIcon />
             </motion.a>
 
             {/* <motion.a

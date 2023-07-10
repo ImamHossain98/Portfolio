@@ -41,14 +41,14 @@ export default function Home() {
               />
               <AnimatedText
                 text="Full stack web developer"
-                className="!text-4xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl md:mt-8"
+                className="!text-3xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl md:mt-8"
               />
 
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+              <p className="my-4 text-base font-medium md:text-sm sm:text-xs break-words text-justify ">
                 As a skilled full-stack developer, I am dedicated to turning
                 ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+                projects and articles, showcasing my expertise in React.js,
+                Next.js,TypeScript, Node, MongoDB and web development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
@@ -62,7 +62,7 @@ export default function Home() {
                   Resume <LinkArrow className="w-6 ml-1" />
                 </Link>
                 <Link
-                  href="mailto:imamhossain98@gmail.com"
+                  href="mailto:office.imam647@gmail.com"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >

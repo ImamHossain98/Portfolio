@@ -30,7 +30,9 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <span className="capitalizze font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time}|{address}
         </span>
-        <p className="font-medium w-full md:text-sm sm:text-xs text-justify">{work}</p>
+        <p className="font-medium w-full md:text-sm sm:text-xs text-justify">
+          {work}
+        </p>
       </motion.div>
     </li>
   );
@@ -56,49 +58,25 @@ const Exprience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            company="Google"
-            tie="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+            position="Cheif Executive"
+            company="Muldhara Express Ltd."
+            tie="2021-2022"
+            address="Dhaka, Bangladesh"
+            work=" Recording financial transactions. Assisting with financial reporting.
+            • Accounts Receivable and Accounts.
+            • Payable Management.
+            • Payroll Management.
+            • E-mail correspondance.
+            • Letter Writing.
+           
+         "
           />
           <Details
-            position="Software Engineer"
-            company="Google"
+            position="Web Developer"
+            company="Self Enthusiastic Learner"
             tie="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            tie="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            tie="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            company="Google"
-            tie="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+            address="Dhaka, Bangladesh"
+            work=" I am skilled web developer with over years of experience in HTML, CSS, JavaScript, and Nodejs. I have knowledge of popular frameworks such as React, React Native and NextJs and experience with REST APIs and context APIs."
           />
         </ul>
       </div>

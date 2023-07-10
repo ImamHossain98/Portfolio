@@ -8,7 +8,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 
 const achievements = () => {
   return (
-    <div>
+    <div className="mx-8 my-8">
       <Head>
         <title> Imam Hossain | Achievements Page</title>
         <meta name="description" content="any description" />
@@ -37,7 +37,8 @@ const achievements = () => {
           </h2>
 
           <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
-            I have performed among the top 15% of the class
+            This was 6 months lengthy course, I had performed among the top 15%
+            of the class.
           </p>
           <div className="mt-2 flex items-center"></div>
         </div>

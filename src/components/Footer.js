@@ -23,7 +23,7 @@ const Footer = () => {
 
         <Link
           className="underline underline-offset-2"
-          href="https://wa.me/+8801775984338"
+          href="https://wa.me/+8801854146107"
           target={"_blank"}
         >
           Say Hello!
