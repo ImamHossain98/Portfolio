@@ -41,7 +41,7 @@ export default function Home() {
               />
               <AnimatedText
                 text="Full stack web developer"
-                className="!text-3xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl md:mt-8"
+                className="!text-2xl !text-left xl:!text-3xl lg:!text-center lg:!text=4xl md:!text-3xl sm:!text-2xl md:mt-8"
               />
 
               <p className="my-4 font-medium md:text-sm sm:text-xs text-justify break-words">

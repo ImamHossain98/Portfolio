@@ -147,7 +147,7 @@ const projects = () => {
               <Project
                 title="Personal portfolio"
                 img={projectt1}
-                link="https://promptopia-psi-fawn.vercel.app/"
+                link="https://portfolio-imamhossain98.vercel.app/"
                 github="https://github.com/ImamHossain98/Portfolio"
                 type="Featured Project"
               />
